@@ -1,0 +1,538 @@
+.container-all{
+  position: relative; top: 77px; background-color: #f4f8fa; height: 550px;
+}
+
+.header{
+  padding-top: 0;
+  margin-top: 0;
+  height: 60px;
+}
+#previous{
+  position: relative; left: -37px;
+}
+.logo{
+  position: relative; top: -10px;
+  left: -43px;
+}
+
+
+.row-main{
+  background-color: #f4f8fa; width: 100%;  
+}
+.main-card{
+  background-color: #fff;
+  margin-left: 5px;
+  margin-bottom: 30px;
+  width: 840px;
+}
+
+
+/**/
+.sidebar{
+  margin-left: 10px;
+  min-width: 240px;
+}
+.side-card{
+  background-color: #fff; 
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 10px;
+}
+
+.card-title{
+  color: #000;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.price{
+  border-top: 1px solid black;
+  padding-top: 15px;
+  padding-bottom: 8px;
+  color: #000;
+ }
+ .package-info{
+  padding-bottom: 10px;
+ }
+ #inDate{
+  text-align: center;
+ }
+ #outDate{
+  text-align: center;
+ }
+ #inDate{
+  color: #000;
+ }
+ #outDate{
+  color: #000;
+ }
+ .day{
+  font-size: 11px;
+  color: #4a4a4a;
+ }
+ #partySize{
+  text-align: center;
+}
+
+.data-hero{
+  font-size: 11px;
+  color: #4a4a4a;
+}
+.data-heroII{
+  font-size: 12px;
+  color: #4a4a4a;
+}
+.summary{
+  padding-bottom: 10px;
+}
+
+.search-button{
+  background-color: #fff;
+  width: calc(100%);
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 40px;
+  transition: all .4s ease-in;
+ }
+ .search-button:hover{
+  background-color: rgb(255, 98, 41);
+  color: #fff;
+  border: 1px solid #000;
+}
+
+/**/
+.top-view{
+  padding-top: 5px;
+ }
+
+ .top-view-row{
+    background-color: #fff;
+ }
+ .top-img-pic{
+    width: 140px;
+    height: 120px;
+    background-color: #1d1a3a;
+    margin-top: 4px;
+  } 
+  .top-img-pic:hover{
+    box-shadow: 5px 0 5px 0 grey;
+}
+
+
+.sn-first{
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  height: 40px;
+  color: #1d1a3a;
+ }
+ .sn{
+  border-top: 1px solid black;
+  height: 40px;
+  font-size: 13px;
+}
+.desc:hover{
+  background-color: #f3f8fa;
+  border: 2px solid #1d1a3a;
+}
+
+/**/
+.cell{
+  font-family:Arial, Helvetica, sans-serif;
+}
+.cell:hover{
+ border: 0px solid #1d1a3a;
+}
+.room-selector{
+  text-align: center;
+  min-width: 680px;
+  height: 210px;
+}
+.week-slider{
+  margin-bottom: 10px;
+}
+
+
+/**/
+.proceed{
+  position: absolute; bottom: 30px; 
+  text-align: right; width: 100%; 
+  background-color: #0b0a17;  height: 38px; padding-right: 30px;
+  display: none;
+}
+.process{
+  background-color: #fff; color: #000;
+  border-radius: 4px;
+  width: 65px; height: 31px;
+  position: relative;
+  bottom: 1px;
+}
+.nextz{
+  border: 1px solid black;
+  background-color: #f3f8fa;
+  position: relative;
+  top: 8px;
+  border-radius: 4px;
+  width: 140px;
+  padding-left: 5px;
+}
+.nextz:hover{
+  box-shadow: 2px 0 2px 0;
+ }
+.process:hover{
+  background-color: #ff5f09;
+}
+
+.increase{
+  width: 20px;
+  height: 25px;
+}
+.decrease{
+  width: 20px;
+  height: 25px;
+}
+
+
+/**/
+.top-desc{
+  color: #fff;
+  font-size: 17px;
+  text-align: left;
+  font-weight: 300;
+  padding-bottom: 11px;
+  margin-bottom: 10px;
+  text-decoration: underline grey;
+  background-color: /*rgb(22, 18, 36)*/ #15132b;
+  width: calc(100% + 60px);
+  height: calc(100% + 20px);
+  position: relative;
+  left: -45px;
+  padding-left: 15px;
+  padding-top: 5px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.stack-btn{
+  background-color: rgba(12, 8, 26, 0.989);
+  color: #f3f8fa;
+  border-radius: 4px;
+  width: 150px;
+  text-align: center;
+  position: relative;
+  left: 70%;
+  border: 1px solid transparent;
+}
+.stack-btn:hover{
+  background-color: rgb(27, 18, 57);
+}
+.mail{
+  margin-bottom: 10px;
+}
+.name-std{
+  margin-bottom: 10px;
+}
+.nameses{
+  margin-bottom: 25px; width: 80%;
+}
+.namesesII{
+  width: 80%;
+}
+.namesesIII{
+  width: 80%;
+}
+
+.cart-main{
+  padding: 15px; padding-top: 0px; 
+  border-radius: 8px; padding-left: 45px;
+}
+.bagatti{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.colorr{
+  color: #000;
+}
+.colorrII{
+  color: #000;
+  font-size: 12px;
+}
+.selectNo{
+font-weight: bold;
+margin: auto;
+width: 100%;
+background-color: rgb(255, 107, 53);
+text-align: right;
+padding-top: 5px;
+color: #000;
+padding-right: 7px;
+position: sticky;
+left: 0;
+display: none;
+}
+.SelectNoIn{
+  width: 50px;
+  border: 1px solid #000;
+  height: 25px;
+  position: relative;
+  top: 1px;
+  padding-left: 5px;
+}
+.SelectNoIn:hover{
+  border: 1px solid #1d1a3a;
+  height: 26px;
+  background-color: #f4f8fa;
+}
+.numSub{
+  color: #fff; background-color: rgb(7, 9, 47);
+  width: 32px;
+  border-radius: 4px;
+  height: 27px;
+}
+.numSub:hover{
+  background-color: #000;
+}
+
+.pkgSelect{
+  background-color: #fff;
+  color: #000;
+  border: 1px solid black;
+  width: 138px;
+  padding-top: 5px;
+  display: none;
+}
+.optio{
+  padding-left: 5px;
+}
+.optio:hover{
+  background-color: rgb(224, 227, 234);
+}
+.address-info{
+ position: relative;
+ top: 10px;
+ color: #000;
+ font-size: 13px;
+}
+
+/*responsive shit... big screen*/
+@media screen and (max-width:1280px){
+  .proceed{
+    position: absolute; bottom: 47px; 
+  }
+  .main-card{
+    width: 106%;
+  }
+}
+@media screen and (max-width:1260px){
+  .proceed{
+    position: absolute; bottom: 37px; 
+  }
+}
+
+
+@media screen and (max-width:1100px){
+  .main-card{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 106%;
+  }
+  .logo{
+    width: 100%;
+    position: relative;
+    left: 10px;
+    top: -8px;
+   }
+}
+
+/*problematic screen*/
+@media screen and (max-width:950px){
+  .selectNo{
+    text-align: right;
+    padding-right: 25px;
+  }
+  .main-card{
+    width: 104%;
+  }
+  /*.logo{
+    width: 100%;
+    position: relative;
+    left: 20px;
+    top: -8px;
+  }*/
+
+  .colorrII{
+    color: rgb(66, 66, 66);
+    font-size: 12px;
+  }
+}
+
+/* mid screen*/
+@media screen and (max-width:780px) {
+  .side-card{
+    margin: auto;
+    margin-bottom: 20px;
+    position: relative;
+    left: 8px;
+  }
+  .container-all{
+    height: 100%;
+    background-color: transparent;
+  }
+  .main-card{
+    margin-left: 10px;
+    position: relative;
+    left: 2px;
+  }
+  .selectNo{
+    padding-right: 10px;
+  }
+  .proceed{
+    position: absolute; bottom: 15px; 
+  }
+}
+@media screen and (max-width:767px) {
+  #inDate{
+    width: 35%;
+  }
+  #outDate{
+    width: 35%;
+  }
+  #partySize{
+    width: 30%;
+  }
+  .navbar-toggler{
+    display: none;
+  }
+  .side-card{
+    width: 100%;
+    position: relative;
+    top: -10px;
+  }
+  .oop{
+    height: 47px;
+  }
+  .oops{
+    height: 97px;
+  }
+  .search-button{
+    margin-bottom: 25px;
+  }
+  .main-card{
+    width: calc(100% + 3px);
+  }
+  .mail{
+   width: 50%;
+  }
+  .selectNo{
+    text-align: right;
+    padding-left: 0;
+  }
+  .colorrII{
+    color: rgb(66, 66, 66);
+    font-size: 12px;
+  }
+  .address-info{
+    position: relative;
+    top: 19px;
+    left: 20px;
+    font-size: small;
+  }
+  #previous{
+    position: relative; left: 0px;
+  }
+}
+
+
+/*small screen*/
+@media screen and (max-width:580px){
+  .oop{
+    height: 90%;
+  }
+  .oops{
+    height: 90%;
+  }
+  .search-button{
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  .main-card{
+    width: calc(100% + 1px);
+  }
+  .nav-content{
+    position: relative;
+    top: -15px;
+  }
+  #previous{
+    position: relative; left: 70px;
+  }
+  .card-title{
+    text-align: center;
+  }
+  .side-card{
+    width: calc(100% + 3px);
+    height: 90%;
+    position: relative;
+    top: -10px;
+  }
+  .sidebar{
+    margin-left: 6px;
+  }
+}
+
+
+@media screen and (max-width: 500px){
+  .nameses{
+   width: 92%;
+  }
+  .namesesII{
+    width: 92%;
+  }
+  .namesesIII{
+    width: 60%;
+  }
+  .stack-btn{
+    position: relative;
+    left: 40%;
+    margin-top: 2px;
+    width: 110px;
+  }
+  .name-std{
+    padding-left: 10px;
+  }
+  .top-desc{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-decoration: underline gray;
+    background-color: rgb(22, 18, 36);
+  }
+  .names{
+    position: relative;
+    left: 1%;
+  }
+  .colorr{
+    position: relative;
+    left: 17px;
+    top: -20px;
+  }
+  .colorrII{
+    position: relative;
+    left: -2px;
+    font-size: 11px;
+  }
+  #bagatt{
+    position: relative;
+    top: 7px;
+    left: -5px;
+  }
+  .cart-main{
+    border-radius: 8px;
+    padding-left: 15px;
+  }
+  .stack-btn{
+    background-color: rgb(22, 18, 36);
+  }
+  .stack-btn:hover{
+    background-color: #000;
+  }
+}
