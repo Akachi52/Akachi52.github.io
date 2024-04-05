@@ -1,0 +1,485 @@
+ .navlinks{
+   display: inline;
+   font-size: medium;
+   letter-spacing: 1px;
+   font-weight: 400;
+ }
+ .nav-ul{
+  position: relative;
+  left: -20px;
+ }
+ .navbar-log{
+  position: relative;
+  left: -39px;
+  top: 5px;
+ }
+ .home-disp a:hover{
+  color: #bff8ea;
+ }
+.hom-dsp{
+  color: #fff;
+}
+.etsy li:hover{
+  text-transform: capitalize;
+}
+.etsy a:hover{
+ text-decoration: underline rgb(254, 137, 95);
+}
+.etcy li:hover{
+  text-transform: capitalize;
+}
+.etcy a:hover{
+ text-decoration: underline #ffebe3;
+}
+ .logbar{
+  background-color: red;
+  height: 7px;
+  width: 100%;
+  position: relative;
+ }
+ .mo:hover{
+text-decoration: underline;
+color: #bff8ea;
+}
+.mo{
+  margin-left: 13px;
+}
+@media screen and (max-width: 533px) {
+  .nav-ul{
+  position: relative;
+  top: 8px;
+  }
+  .mo{
+    margin-left: 180px;
+  }
+}
+.tyler-hero{
+  font-size: 30px;
+  padding-left: 10px;
+}
+.tyler-hero:hover{
+  text-shadow: 7px #1c233d;
+}
+.grid:hover{
+  box-shadow: 1px 2px 1px 2px #bff8ea;
+}
+.grid{
+  background-color: #1c233d;
+      --gap: 16px;
+      --num-cols: 4;
+      --row-height: 300px;
+
+      box-sizing: border-box;
+      padding: var(--gap);
+
+      display: grid;
+      grid-template-columns: repeat(var(--num-cols), 1fr);
+      grid-auto-rows: var(--row-height);
+      transition: 0.7s;
+ }
+  .grid > img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+
+  .grid-col-2{
+      grid-column: span 2;
+  }
+  .grid-col-3{
+    grid-column: span 3;
+}
+  .grid-row-2{
+    grid-row: span 2;
+}
+
+  @media screen and (max-width: 1024px) {
+    .grid{
+        --num-cols: 2;
+        --row-height: 200px;
+    }  
+  }
+
+  .artists{
+      padding-left: 40px;
+      display: flex;
+      align-items: center;
+      justify-items: center;
+  }
+ 
+  .spacer{
+    width: 12%;
+     }
+     .spacer-hold{
+      width: 18%;
+       }
+     .spacerx{
+         width: 40%;
+     }
+     /*.card{
+         border: 1px solid black;
+         #007bff
+     }*/
+     .art1{
+         padding-bottom: 30px;
+     }
+
+  .dddd{
+    color: white;
+    background-color: #080d10;
+  }  
+  .art1{
+    padding-bottom: 30px;
+}
+ .expix{
+     border: 1px solid rgb(226, 224, 224);
+     background-color: #151a2c;
+     color: white;
+     text-align: center;
+     padding-top: 3px;
+     padding-bottom: 0;
+     padding-left: 0;
+     padding-right: 0;
+     max-width: 350px;
+     min-width: 280px;
+ }
+ .expix:hover{
+  box-shadow: rgb(145, 145, 145) 0px 4px 4px 0px;
+ }
+ @media screen and (max-width:800px) {
+  .last{
+    position: relative;
+    right: 25px;
+  }
+  .middle{
+    position: relative;
+    right: 15px;
+  }
+ }
+ @media screen and (max-width:500px) {
+  .last{
+    position: relative;
+    right: 0px;
+  }
+  .middle{
+    position: relative;
+    right: 0px;
+  }
+}
+ .spacex{
+   height: 15px;
+ }
+ .spacee{
+   height: 35px;
+ }
+ .spacersx{
+   height: 10px;
+ }
+ .spacers-x{
+  height: 19px;
+}
+ .links{
+   text-align: center;
+ }
+ .cnt-bg{
+   background-image: url("images/kOAK0W.jpg");
+
+ }
+ .lnk-img{
+   color: rgb(255, 165, 87);
+   transition: 0.5s;
+ }
+ .lnk-img:hover{
+   box-shadow: 0 0 6px;
+ }
+ .lnk-imgII{
+  color: rgb(217, 213, 213);
+  transition: 0.5s;
+}
+.lnk-imgII:hover{
+  box-shadow: 0 0 4px;
+}
+ .mac{
+  background-color: white; border: 1px solid rgb(226, 224, 224); border-bottom: 4px solid #c15607;
+  padding-bottom: 5px;
+ }
+ .piece{
+   max-width: 100px;
+   margin: auto;
+ }
+ .rise{
+   text-align: center;
+   font-size: 17px;
+   background-color: #111721;
+ }
+ .toggle-A img{
+   width: 40px;
+   height: 40px;
+   margin: auto;
+   display: none;
+ }
+ .toggle-B img{
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  display: none;
+}
+.artist{
+background-color: #1c233d;
+color: #141e27;
+}
+.arts-cnt{
+  background-color: #141e27; color: white; padding-left: 5px; padding-right: 5px; padding-bottom: 0px;
+}
+.art-txt{
+  color: white;
+}
+.check-cart{
+  max-width: 8%;
+  max-height: 100%;
+  border: 1px solid #1c233d;
+  border-bottom: 3px solid red;
+  min-width: 55px;
+  background-color: #1c233d;
+  border-top: 1px solid #fdf4f5;
+  position: relative;
+  left: 92%;
+}
+.sub-bttn{
+  background-color: transparent;
+  border: 1px solid #eee;
+}
+.sub{
+background-color: transparent; 
+border: 2px solid #0a1528;
+width: 70px; 
+color: #656668;
+}
+.subII{
+  background-color: transparent; 
+  border: 2px solid #0a1528;
+  width: 70px; 
+  color: #d4d3d3; 
+  position: relative; 
+  top: 10px;
+}
+.subII:hover{
+  border: 2px solid #37174d;
+  color: #efecec;
+}
+.sub:hover{
+  border: 2px solid #07265c;
+  color: #dcdcdc;
+}
+.hr-spacer{
+  width: 50px;
+}
+.hr-space{
+  width: 25px;
+}
+.art-spc{
+  width: 10px;
+  background-color: #141e27;
+}
+.delete-hold{
+  border-radius: 4px;
+  border-color: #fff;
+  background-color: transparent;
+  color: #fff;
+  width:50px;
+  border: 2px solid #fff;
+  padding-top: 0;
+  max-height: 28px;
+}
+.delete-hold:hover{
+  background-color: #141e27;
+  border-color: #c6c6c6;
+  color: cyan;
+}
+.hold{
+  display: none;
+  max-height: 1000px;
+  min-height: 300px;
+  padding: 10px;
+  padding-left: 12px;
+  padding-right: 10px;
+  overflow: hidden;
+}
+.holdcats a{
+color: rgb(102, 98, 98);;
+}
+.holdmeeds a{
+  color: #031b40;
+}
+.holdcolls a{
+  color: #031b40;
+}
+.holdarts{
+  background-color: #eee;
+}
+/* sreen width adjust for last two*/
+.holdcats{
+  background-color: #eee;
+  font-size: 15px;
+}
+.holdcolls{
+  background-color: #eee;
+  font-size: 14px;
+}
+.holdmeeds{
+  background-color: #eee;
+  font-size: 14px;
+}
+@media screen and (max-width: 2000px){
+  .holdcolls{
+    max-width: 260px;
+  }
+  .holdarts{
+    max-width: 447px;
+  }
+}
+@media screen and (max-width: 1000px){
+  .holdcolls{
+    max-width: 284px;
+  }
+  .holdcats{
+    max-width: 440px;
+  }
+}
+@media screen and (max-width: 800px){
+  .holdcolls{
+    max-width: 300px;
+    min-width: 270px;
+  }
+  .holdcats{
+    max-width: 426px;
+  }
+  .holdmeeds{
+    max-width: 300px;
+  }
+  .holdarts{
+    min-width: 514px;
+  }
+}
+@media  screen and (max-width: 600px){
+  .holdarts{
+    min-width: 380px;
+  }
+  .holdcolls{
+    max-width: 385px;
+  }
+  .holdmeeds{
+  min-width: 385px;
+  }
+}
+.ul-foot{
+    color:  #7a7a7b;
+    font-size: small;
+    display: block;
+}
+.ul-foot li{
+ position: relative;
+ left: -16px;
+}
+.ul-foot li :hover{
+  color: #eee;
+}
+.ul-footII{
+  position: relative; left: 22%;
+}
+.ul-footII li{
+  color: #272c31;
+}
+.ul-footII li :hover{
+  color: #44474b;
+}
+.link-foot{
+  color: #272c31;
+}
+.alt:hover{
+  color: #44474b;
+}
+.p-foot{
+  color:  #7a7a7b;
+  font-family: small;
+}
+.side-drop{
+  border-bottom: 1px solid #fe5b00;
+  border-top: 1px solid #0a0e14;
+  max-width: 100px;
+  height: 50px;
+  background-color: #1c233d;
+  display: none;
+}
+.side-stay{
+  width: 250px;
+  height: 26px;
+}
+.ex-txt{
+  position: relative;
+  text-align: right;
+  width: 80%;
+  left: 50%;
+  color: #bff8ea;
+  top: -8px;
+}
+.ex-txtII{
+  position: relative;
+  text-align: right;
+  top: -16px;
+  left: -1px;
+  color: #ddd;
+}
+.ex-txtIII{
+  position: relative;
+  top: 58px;
+  left: -1px;
+  text-align: right;
+  color: #1c233d;
+}
+@media screen and (max-width: 820px){
+  .ex-txt4{
+    display: none;
+  }
+}
+.otr-disp a:hover{
+text-decoration: underline;
+text-decoration-color: #bff8ea;
+}
+.arts-top-half{
+  border-bottom: 1px solid #111721; 
+  border-top: 1px solid rgb(78, 78, 78);
+  padding-top: 4px; 
+  background-color: #111721;border-top-left-radius: 4px; 
+  border-top-right-radius: 4px;
+}
+.item-pic{
+  position: relative;
+ bottom: -2px;
+ left: 8%;
+}
+@media screen and (max-width: 700px){
+  .item-pic{
+    position: relative;
+   bottom: -0px;
+   left: 70%;
+  }
+}
+@media screen and (max-width: 2400px){
+  .spacer-res{
+   display: none;
+  }
+}
+@media screen and (max-width: 600px){
+  .spacer-res{
+   display: block;
+   height: 2px;
+  }
+}
+.arts-work{
+transition: 1s;
+min-height: 220px;
+}
+.arts-work img:hover{
+  box-shadow: 1px 0 0 0px /*rgb(2, 155, 155)*/ orangered;
+}

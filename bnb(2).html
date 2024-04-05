@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Bookings</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" href="style.1(2).css">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="bootstrap.min(2).css">
+    <!-- style css -->
+    <link rel="stylesheet" href="style(2).css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="responsive(2).css">
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="jquery.mCustomScrollbar.min(2).css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+
+
+<body class="main-layout" style="background-color: #f4f8fa;" onload="getSidecard()">
+    <!-- header -->
+    <header>
+        <div class="header" style="background-color: #15132b;">
+            <div class="container">
+                <div class="row nav-content">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                        <div class="full">
+                            <div class="center-desk">
+                                <div class="logo">
+                                    <a href="index.html"><img src="https://ibb.co/q92s0Lp" alt="#" style="height: 40px;" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                        <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                            <div class="collapse navbar-collapse" id="navbarsExample04">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"></a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--header end-->
+
+
+    <div class="container-all">
+
+        <div class="spacer" style="height: 25px;"></div>
+
+        <!--*add user date inputs-->
+        <div class="row row-main">
+            <div class="col-md-3 sidebar">
+                <div class="card side-card">
+                    <p class="card-title oop">
+                        BOOKING SUMMARY
+                    </p>
+
+                    <div class="summary oops" id="bookingSummary">
+                        <div class="row date-stats" id="dateStats">
+                            <div class="col-md-4" id="inDate">
+                                <p class="data-hero">IN DATE</p>
+                                <P id="DispinDates">Sept 8</P>
+                                <p id="DispinDay" class="day">FRI</p>
+                            </div>
+
+                            <div class="col-md-4" id="outDate">
+                                <p class="data-hero">OUT DATE</p>
+                                <P id="DispoutDates">Sept 9</P>
+                                <p id="DispoutDay" class="day">SAT</p>
+                            </div>
+
+                            <div class="col-md-4" id="partySize">
+                                <p class="data-heroII">NIGHTS</p>
+                                <p style="color: #000;" id="nightsDisp">1</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href=""><button class="search-button">Search Again</button></a>
+                </div>
+            </div>
+            <!--sidebar end-->
+
+
+            <div class="col-md-8 content-main">
+                <!--card 1-->
+                <div class="card main-card">
+
+                    <div class="pre-table" style="position: sticky; left: 0;">
+                        <div class="top-view">
+                            <div class="row top-view-row" style="margin: auto;">
+                                <div class="col-md-3 top-img">
+                                    <img src="https://ibb.co/5TNWWTW" alt="" class="top-img-pic" style="width: 150px; height: 120px;">
+                                </div>
+
+                                <div class="col-md-6 room-name" style="text-align: left;">
+                                    <p style="font-weight: 600; font-size: 16px; color: rgb(35, 35, 35);">Bed and Breakfast</p>
+                                    <p style="font-weight: 500; font-size: 14px;">
+
+
+                                        <div id="typeRoom" class="nextz" onclick="displaypkg()">
+                                            <p>select package --</p>
+                                        </div>
+
+                                        <div class="pkgSelect" id="pkgSelect">
+                                            <div class="optio" onclick="targetsingle()"> room only</div>
+                                            <div class="optio"> bed and breakfast</div>
+                                            <div class="optio" onclick="targetDnight()"> date night</div>
+                                        </div>
+                                </div>
+
+                                <div class="col-md-3 price-view" style="text-align: right;">
+                                    <p style="font-size: 11px;">From</p>
+                                    <P style="font-weight: 600; font-size: 18px;">$87.00</P>
+                                    <p style="font-size: 11px;">total stay</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="week-slider" id="weekSlider">
+                            <div class="row">
+                                <div class="col-md-4" style="padding-left: 20px;">
+                                    <!--blank space-->
+                                    *Room Selection
+                                </div>
+
+                                <div class="col-md-8" style="text-align: center;">
+                                    <p id="previous">*Our pricing table</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <table class="room-selector">
+
+                        <!--*add subsequent dates-->
+                        <thead class="table-blue-cross">
+                            <tr>
+                                <th scope="col" class="sn-first" id="">Sept - Nov</th>
+                                <th scope="col" class="sn" id="">Sundays</th>
+                                <th scope="col" class="sn" id="">Mondays</th>
+                                <th scope="col" class="sn" id="">Tuesdays</th>
+                                <th scope="col" class="sn" id="">Wednesdays</th>
+                                <th scope="col" class="sn" id="">Thursdays</th>
+                                <th scope="col" class="sn" id="">Fridsys</th>
+                                <th scope="col" class="sn" id="">Saturdays</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="desc" title="1 person max" onclick="showBottomForm()" id="pkgDesc">
+                                    Single Room
+                                    <i style="float: right; position: relative; right: 14px;"><span title="1 person">
+                           <img src="images/icons8-avatar-32.png" alt="" style="width: 19px; height: 19px;">
+                        </span></i>
+                                </th>
+
+                                <td class="cell" id="celly">$104</td>
+                                <td class="cell" id="celly">$87</td>
+                                <td class="cell" id="celly">$87</td>
+                                <td class="cell" id="celly">$87</td>
+                                <td class="cell" id="celly">$87</td>
+                                <td class="cell" id="celly">$104</td>
+                                <td class="cell" id="celly">$104</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row" class="desc" title="3 persons max (2 - adults 1 - child)" onclick="showBottomForm2()" id="pkgDesc2">
+                                    Double Room
+                                    <i style="float: right; position: relative; right: 14px;"><span title="2 persons">
+                           <img src="images/icons8-avatar-32.png" alt="" style="width: 19px; height: 19px;">
+                        </span></i>
+                                </th>
+
+                                <td class="cell" id="celly">$128</td>
+                                <td class="cell" id="celly">$114</td>
+                                <td class="cell" id="celly">$114</td>
+                                <td class="cell" id="celly">$114</td>
+                                <td class="cell" id="celly">$114</td>
+                                <td class="cell" id="celly">$128</td>
+                                <td class="cell" id="celly">$128</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row" class="desc" title="2 persons max" onclick="showBottomForm3()" id="pkgDesc3">
+                                    Twin Room
+                                    <i style="float: right; position: relative; right: 14px;"><span title="2 persons">
+                        <img src="images/icons8-avatar-32.png" alt="" style="width: 19px; height: 19px;">
+                       </span></i>
+                                </th>
+
+                                <td class="cell" id="celly">$128</td>
+                                <td class="cell" id="celly">$114</td>
+                                <td class="cell" id="celly">$114</td>
+                                <td class="cell" id="celly">$114</td>
+                                <td class="cell" id="celly">$114</td>
+                                <td class="cell" id="celly">$128</td>
+                                <td class="cell" id="celly">$128</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row" class="desc" title="4 persons max (2 - adults 2 - children)" onclick="showBottomForm4()" id="pkgDesc4">
+                                    Tripple Room
+                                    <i style="float: right; position: relative; right: 14px;"><span title="3 persons">
+                           <img src="images/icons8-avatar-32.png" alt="" style="width: 19px; height: 19px;">
+                        </span></i>
+                                </th>
+
+                                <td class="cell" id="celly">$160</td>
+                                <td class="cell" id="celly">$120</td>
+                                <td class="cell" id="celly">$120</td>
+                                <td class="cell" id="celly">$120</td>
+                                <td class="cell" id="celly">$120</td>
+                                <td class="cell" id="celly">$160</td>
+                                <td class="cell" id="celly">$160</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row" class="desc" title="4 persons max (2 - adults 2 - children)" onclick="showBottomForm5()" id="pkgDesc5">
+                                    Executive Double Room
+                                    <i style="float: right; position: relative; right: 14px;"><span title="2 persons">
+                           <img src="images/icons8-avatar-32.png" alt="" style="width: 19px; height: 19px;">
+                        </span></i>
+                                </th>
+
+                                <td class="cell" id="celly">$240</td>
+                                <td class="cell" id="celly">$240</td>
+                                <td class="cell" id="celly">$240</td>
+                                <td class="cell" id="celly">$240</td>
+                                <td class="cell" id="celly">$240</td>
+                                <td class="cell" id="celly">$240</td>
+                                <td class="cell" id="celly">$240</td>
+                            </tr>
+                            <tfoot class="table-blue-cross">
+                    </table>
+                    <div class="selectNo" id="selectNo">
+                        <form id="noRooms">
+                            <label for="number rooms">Number of rooms</label>
+                            <input type="text" id="rooms" class="SelectNoIn" placeholder="0">
+                            <button class="numSub" type="submit" onsubmit="getNoRooms()">></button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--*make visible after selection-->
+        <div class="proceed" id="proceed">
+            <p style="position: relative; top: 5px; color: #fff;"> <span id="process">1</span> selected
+                <button class="process" onclick="TargetCart()">proceed</button>
+            </p>
+        </div>
+    </div>
+
+    <!--foot-->
+    <footer>
+
+    </footer>
+    <!-- end footer -->
+
+
+    <script src="returns(2).js"></script>
+    <script src="selectBNB(2).js"></script>
+    <!--<script src="extra/countbox.js"></script>-->
+</body>
+
+</html>

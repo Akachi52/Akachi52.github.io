@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+
+
+    <title>Hotel Name | Hotel Location</title>
+
+
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" href="style.2(2).css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="bootstrap.min(2).css">
+    <!-- style css -->
+    <link rel="stylesheet" href="style(2).css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="responsive(2).css">
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="jquery.mCustomScrollbar.min(2).css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+
+
+<!-- body -->
+
+<body class="main-layout">
+
+
+    <!-- header -->
+    <header>
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                        <div class="full">
+                            <div class="center-desk">
+                                <div class="loggo">
+                                    <a href="index.html"><img src="https://ibb.co/q92s0Lp" alt="#" class="loogo" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                        <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                            <div class="collapse navbar-collapse" id="navbarsExample04">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#about">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#booking">Book</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="next.html">Rooms</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#contact">Contact us</a>
+                                    </li>
+                                </ul>
+                                <div class="sign_btn"><a href="next.html">Sign in</a></div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- banner -->
+    <section class="banner_main" style="background-color: #f4f8fa;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-bg">
+                        <div class="padding_lert">
+                            <h1 style="color: rgb(168, 202, 192); font-size: 41px;" class="hom-hero">Hotel Name</h1>
+                            <h1 style="color: rgb(252, 247, 219); font-size: 29px;" class="hom-heroII">Hotel Name</h1>
+
+                            <P class="addy1" style="font-size: 11px;">51 Nassau St, New york, NY 10038</P>
+                            <P class="addy2" style="font-size: 12px;">51 Nassau St, New york, NY 10038</P>
+
+                            <h1 style="color: #fff; font-size: 21px;" id="homIII" class="hom-heroIII" title="book now">book now</h1>
+
+                            <p class="intro-text">
+                                There are a wide variety of people that are in and out, but even more so a wide range of experiences to be had during your stay. We are sure it will prove to be exactly what you didin't even know you needed.
+                            </p>
+
+                            <p class="intro-textII" style="font-size: 15px; color: #f4f8fa; background-color: rgba(17, 17, 17, 0.32); 
+                        height: 76px; position: relative; top: -60px;">There are a wide variety of people that are in and out, but even more so a wide range of experiences to be had during your stay.
+                            </p>
+
+                            <p class="intro-textIII" style="width: 110%; position: relative; left: -55px; color: #f4f8fa; background-color: rgba(17, 17, 17, 0.32); height: 76px; position: relative; top: -55px; left: -5%;">There are a wide variety of people that are in and out, but even more so a wide range of experiences to be had during your stay.
+                            </p>
+
+
+                            <a href="next.html" class="learn" style="background-color: #f8e3db; color: rgb(31, 31, 31);" id="learn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="booking"></div>
+    </section>
+    <!-- end banner -->
+
+
+
+    <!-- form_lebal -->
+    <section>
+        <div class="container">
+            <!--*add date selector-->
+            <div class="row" id="booking">
+                <div class="col-md-12">
+                    <form class="form_book" id="magic">
+                        <div class="row">
+                            <div class="col-md-3 book_nIV">
+                                <label class="date">ARRIVAL DATE</label>
+                                <div class="row">
+                                    <input class="col book_nI" type="text" placeholder="DD" id="daySelected" required>
+                                    <div class="divider">/</div>
+
+                                    <input class="col book_nII" type="text" placeholder="MM" id="monthSelected" required>
+                                    <div class="divider">/</div>
+
+                                    <div class="col book_nIII">23</div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-3">
+                                <label class="date">NIGHTS</label>
+                                <input class="book_n" type="text" placeholder="3" id="nightsSelected">
+                            </div>
+                            <div class="col-md-3">
+                                <label class="date">PERSONS</label>
+                                <input class="book_n" placeholder="2" type="type" id="personsSelected">
+                            </div>
+                            <div class="col-md-3">
+                                <button type="submit" class="book_btn">Book Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end form_lebal -->
+    <!-- choose  section -->
+    <div class="choose">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="choose_box">
+                        <div class="titlepage">
+                            <h2><span class="text_norlam">Choose The Perfect</span> <br>Accommodation</h2>
+                        </div>
+
+                        <div class="img_box placeII">
+                            <figure><img src="images/perfect2.jpg" class="roompicI" alt="#" /></figure>
+                        </div>
+
+                        <p>With our wide variety of rooms and services, choosing the right fit for you and your visitors is easier than ever. With everything ranging from a single room only to the vacation special.</p>
+                        <a class="read_more" href="next.html">See More</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="img_box placeI">
+                                <figure><img src="images/perfect2.jpg" class="roompicI" alt="#" /></figure>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="img_box">
+                                <figure><img src="images/perfect3.jpg" alt="#" class="roompicII" /></figure>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="img_box">
+                                <figure><img src="images/perfect4.jpg" alt="#" class="roompicII" /></figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end choose  section -->
+
+
+    <!-- our breakfast section -->
+    <div class="our">
+        <div class="container">
+            <div class="row d_flex">
+                <div class="col-md-6">
+                    <div class="titlepage titlepageII" style="text-align: right;">
+                        <h2><span class="text_norlam">Our Best </span> <br>Breakfast</h2>
+                    </div>
+
+                    <div class="img_box">
+                        <figure><img src="https://ibb.co/Rjd9RyV" alt="#" class="food-pic" /></figure>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="our_box">
+                        <div class="titlepage titlepageI">
+                            <h2><span class="text_norlam">Our Best </span> <br>Breakfast</h2>
+                        </div>
+
+                        <p>We spare no expense in making sure you have the best in quality cooking. We regularly host meals from our seasoned chefs and sort only the freshest and finest ingredients are used. While still maintaining reasonable pricing</p>
+                        <a class="read_more" href="next.html">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end our  section -->
+
+
+    <!-- about -->
+    <div id="about" class="about">
+        <div class="container-fluid">
+            <div class="row d_flex">
+                <div class="col-md-6">
+                    <div class="about_text">
+                        <div class="titlepage">
+                            <h2 class="bout-us">About Us</h2>
+                            <p class="bout-uz">We strive to be the best in our industry in terms of the quality of the stay we provide and our pricing. Beyond that we believe in leaving a positive impact on everyone that comes through here, you can even see what some of
+                                our guestss have had to say...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="about_img usz">
+                        <figure><img src="https://ibb.co/YkQ0LVB" alt="#" /></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end about -->
+    <!-- testimonial -->
+    <div class="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="titlepage">
+                        <h2 class="monial">Testimonial</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="myCarousel" class="carousel slide testimonial_Carousel " data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="container">
+                                    <div class="carousel-caption ">
+                                        <div class="row">
+                                            <div class="col-md-6 margin_boot">
+                                                <div class="test_box">
+                                                    <h4>Mark jonson</h4>
+                                                    <i><img src="images/te1.png" alt="#"/></i>
+                                                    <p>Very tidy, very elegant and minimal noise. With genuinely some of the best food i've had at any hotel.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="test_box">
+                                                    <h4>Drew Mcarthur</h4>
+                                                    <i><img src="images/te1.png" alt="#"/></i>
+                                                    <p>I stayed over there for 4 nights and i have to say, it was a very comfortable four nights... the rooms we're cozy and the staff were really nice.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="container">
+                                    <div class="carousel-caption">
+                                        <div class="row">
+                                            <div class="col-md-6 margin_boot">
+                                                <div class="test_box">
+                                                    <h4>Emma Hayes</h4>
+                                                    <i><img src="images/te1.png" alt="#"/></i>
+                                                    <p>The friendliness of the staff, amazing breakfast and comfortable rooms were nothing short of lovely</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="test_box">
+                                                    <h4>Farouk Mohammad</h4>
+                                                    <i><img src="images/te1.png" alt="#"/></i>
+                                                    <p>Worth it. It was a very plesant stay and the atmosphere was very welcoming, and don't even get me started on the food. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="container">
+                                    <div class="carousel-caption">
+                                        <div class="row">
+                                            <div class="col-md-6 margin_boot">
+                                                <div class="test_box">
+                                                    <h4>Anna Kubow</h4>
+                                                    <i><img src="images/te1.png" alt="#"/></i>
+                                                    <p>I don't have much to say. My regards to the chef</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="test_box">
+                                                    <h4>Jeff Wilson</h4>
+                                                    <i><img src="images/te1.png" alt="#"/></i>
+                                                    <p>Say what you will, but they really do know how to make a guest feel welcome... I recently hosted a last minuite event there and was really plesantly surprised. A real life saver.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end testimonial -->
+    <!--  footer -->
+    <footer id="contact">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="titlepage">
+                            <h2 class="see-us">Contact Us</h2>
+                        </div>
+                        <!--*validate form-->
+
+                    </div>
+                    <div class="col-md-6">
+                        <form id="request" class="main_form" action="https://formsubmit.co/8b4f51c8e3cbe5d22b5383142c7661de" style="background-color: #000;" method="post">
+
+                            <input type="hidden" name="_next" value="https://www.rbzbookings.com/hotels/Best-Western">
+
+                            <input type="hidden" name="_captcha" value="false">
+
+                            <input type="text" name="_honey" style="display: none;">
+
+
+                            <div class="row">
+                                <div class="col-md-12 ">
+                                    <input class="contactus" placeholder="Full Name" type="type" name="Full Name" required>
+                                </div>
+                                <div class="col-md-12">
+                                    <input class="contactus" placeholder="Email" type="type" name="Email" required>
+                                </div>
+                                <div class="col-md-12">
+                                    <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea class="textarea" placeholder="Message" type="type" name="Message">Message </textarea>
+                                </div>
+                                <input type="text" name="_honey" style="display: none;">
+                                <div class="col-sm-12">
+                                    <button class="send_btn">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- end footer -->
+
+    <script>
+        document.getElementById("learn").addEventListener("mouseover", function() {
+            let x = document.getElementById("learn");
+            x.style.backgroundColor = "#fe6d21";
+        });
+        document.getElementById("learn").addEventListener("mouseout", function() {
+            let x = document.getElementById("learn");
+            x.style.backgroundColor = "#f8e3db";
+        });
+        document.getElementById("homIII").addEventListener("mouseover", function() {
+            let x = document.getElementById("homIII");
+            x.style.color = "rgb(250, 243, 200)";
+        });
+        document.getElementById("homIII").addEventListener("mouseout", function() {
+            let x = document.getElementById("homIII");
+            x.style.color = "#fff";
+        });
+        document.getElementById("homIII").addEventListener("click", function() {
+            var element = document.getElementById("magic");
+            element.scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+        document.getElementById("nightsSelected").addEventListener("click", function() {
+            let x = document.getElementById("nightsSelected");
+            x.style.border = "0";
+        });
+        document.getElementById("monthSelected").addEventListener("click", function() {
+            let x = document.getElementById("monthSelected");
+            x.style.border = "0";
+        });
+
+        request.addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert("Thank you for the feedback");
+            e.currentTarget.submit();
+        });
+    </script>
+
+    <script src="script(2).js"></script>
+    <script src="date(2).js"></script>
+    <!-- Javascript files-->
+    <script src="jquery(2).min.js"></script>
+    <script src="popper.min(2).js"></script>
+    <script src="bootstrap.bundle.min(2).js"></script>
+    <script src="jquery-3.0.0.min(2).js"></script>
+    <script src="plugin(2).js"></script>
+    <!-- sidebar -->
+    <script src="jquery.mCustomScrollbar.concat.min(2).js"></script>
+    <script src="custom(2).js"></script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+</body>
+
+</html>
